@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online bookstore</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Playpen+Sans:wght@100;300&family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+  <link rel="stylesheet" href="styless.css">
+</head>
+    <body>
+     <section class="header">
+      <div class="box">
+       <h1>Exclusive Membership Subscription</h1>
+       <p>Unlock upcoming books and novels and benefits by subscribing to our exclusive membership
+       </p>
+         <h2>Read more...Learn more</h2>
+           <form class="subscriptionForm">
+             <label for="name">Name:</label>
+             <input type="text" id="name" placeholder="Your Name" required>
+
+             <label for="name">Age:</label>
+             <input type="text" id="age" placeholder="Your age" required>
+
+             <label for="email">Email:</label>
+             <input type="email" id="email" placeholder="Your Email" required>
+
+             <button type="button" onclick="subscribe()">Subscribe Now</button>
+
+             <p id="confirmationMessage" style="display: none; color: #4caf50; text-align: center; margin-top: 20px;">Thank you for subscribing!</p> 
+            </form>
+          </section>
+        <section class="product">
+             <h1>Our popular books</h1>
+              <p>
+                 “Books serve to show a man that those original thoughts of his aren't very new after all”.
+              </p>
+            <div class="row">
+                     <div class="product-col">
+                          <h3>
+                            Don Quixote by Miguel de Cervantes
+                         </h3>
+                           <div class="container">
+                             <img src="image/b1.jpg">
+                           </div>
+                             <p>
+                               This Spanish satirical masterpiece follows the adventures of Alonso Quixano, a nobleman Rocinante with readers for centuries.
+                             </p><h4>INR 599</h4>
+                             <button class="buy-now-button">Order Now</button>
+                       </div>
+                       <div class="product-col">
+                        <h3>
+                           The Lord of the Rings
+                       </h3>
+                         <div class="container">
+                           <img src="image/b2.jpg">
+                         </div>
+                           <p>
+                            The story is set in the fictional world of Middle-earth and involves various races, including humans, elves, dwarves, hobbits, and wizards.
+                           </p><h4>INR 499</h4>
+                           <button class="buy-now-button">Order Now</button>
+                     </div>
+                
+             </div>
+             <div class="cont">
+              <strong><h1>Our Amazing Books</h1></strong>
+             
+              <p>Discover what <strong>our customers</strong> are saying about our product:</p>
+              <hr style="color: black;">
+              <div class="testimonial">
+                <img src="image/cilentgirk.jpeg" alt="Customer 1">
+                <blockquote>
+                  "I had a wonderful experience at the book store! The selection was diverse, and the staff was incredibly helpful in guiding me to some hidden gems".
+                  <cite>- Marya Doe</cite>
+                </blockquote>
+              </div>
+            
+              <div class="testimonial">
+                <img src="image/cilentmen.jpeg" alt="Customer 2">
+                <blockquote>
+                  "Impressed by the book store's organization and variety. The staff was knowledgeable and friendly, offering recommendations tailored to my interests".
+                  <cite>- John Smith</cite>
+                </blockquote>
+              </div>
+            
+                <script src="script.js"></script>
+              <section class="footer">
+                <h2>About us</h2>
+                  <p>
+                      New books collection from an e-store</h3>
+                  <div class="icons">
+                      <i class="fab fa-facebook"></i>
+                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fa-brands fa-twitter"></i>
+                      <i class="fab fa-linkedin"></i>
+                  </div>
+                  <p style="color: #a65757;">Make in India</p>
+                  <p>&copy; Copyright All rights reserved.</p>
+              </section>
+
+</body>
+</html>

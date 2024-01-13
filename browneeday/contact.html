@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrownieDay</title>
+    <link rel="stylesheet" href="style.css">  
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Playpen+Sans:wght@100;300&family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header4">
+        <nav>
+            <a href="index.html"><img src="images/browineDaynew.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+         <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav><h2>Contact us</h2>
+    </section> 
+    <div class="container">
+        <div class="content">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Address</div>
+              <div class="text-one">123 street</div>
+              <div class="text-two">Kovilpatti</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+9123456789</div>
+              <div class="text-two">+9178354459 Monday to saturday,10am to 5pm</div>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">brownieday@gmail.com</div>
+              <div class="text-two">info.brownieday@gmail.com</div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Get in touch</div>
+            <p>"Got questions or just want to share the sweetness? Reach out to us using the form below. Your feedback matters, and we're here to make your BROWNIEDAY experience even more delightful. Drop us a line, and let the indulgence continue!"</p>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="input-box message-box">
+                <textarea  rows="8" name="Any query"placeholder="message" required></textarea>
+            </div>
+            <div class="button">
+              <input type="button" value="Send Now" >
+            </div>
+          </form>
+        </div>
+        </div>
+      </div>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu()
+        {
+            navLinks.style.right="-200px";
+        }
+     </script>  
+         <section class="footer">
+          <h2>About us</h2>
+          <p>
+              Indulge in the rich, fudgy goodness of BrownieDay, your one-stop destination for all things brownies.</p> <h3>Connect us via social platforms</h3>
+          <div class="icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fab fa-linkedin"></i>
+          </div>
+          <p>Made with full<i class="fa-regular fa-heart"></i></i> care</p>
+          <p>&copy; Copyright 2023 BrownieDay. All rights reserved.</p>
+      </section>
+    </body>
+    </html>
+    
